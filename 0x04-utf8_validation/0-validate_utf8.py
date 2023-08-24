@@ -4,6 +4,7 @@ Module that contains a method that determines if a given set of
 data is valid for UTF-8 encoding.
 """
 
+
 def validUTF8(data):
     """
     - Return: True if data is a valid UTF-8 encoding, else return False
