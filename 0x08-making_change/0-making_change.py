@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Given a pile of coins of different values 
+Given a pile of coins of different values
 determine the fewest coins
 """
 
@@ -11,7 +11,7 @@ def makeChange(coins, total):
     """
     if total <= 0:
         return 0
-    
+
     coins.sort(reverse=True)
 
     i, j_coins = (0, 0)
